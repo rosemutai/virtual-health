@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'dark-blue': '#233348',
+        'light-blue': '#1F1534'
+      }
+    },
+    fontFamily: {
+      'mulish': ['Mulish', 'sans-serif']
+    }
   },
   plugins: [],
 }
