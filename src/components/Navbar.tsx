@@ -1,19 +1,21 @@
 import React from 'react'
+import circle from '../images/ellipse7.svg'
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
-      <div className="logo">
-        <a href="/">T</a>
-        <a href="/">Trafalgar</a>
+    <div className='navbar w-full bg-white min-h-screen md:flex relative md:justify-between'>
+      <div className="logo flex">
+        <img src={circle} alt="circle"  className='absolute top-0 left-3'/>
+        <a href="/" className='absolute top-1 left-6 z-30 font-mulish'>T</a>
+        <a href="/" className='text-dark-blue md:pl-16'>Trafalgar</a>
       </div>
       <nav className="menu-links">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/doctor">Find a doctor</a></li>
-          <li><a href="/apps">Apps</a></li>
-          <li><a href="/testimonies">Testimonies</a></li>
-          <li><a href="/aboutus">About us</a></li>
+        <ul className='flex text-light-blue justify-between items-center'>
+          <li className='md:mr-10 font-bold text-lg font-mulish'><a href="/">Home</a></li>
+          <li className='md:mr-10 opacity-50 font-normal text-lg font-mulish'><a href="/doctor">Find a doctor</a></li>
+          <li className='md:mr-10 opacity-50 font-normal text-lg font-mulish'><a href="/apps">Apps</a></li>
+          <li className='md:mr-10 opacity-50 font-normal text-lg font-mulish'><a href="/testimonies">Testimonies</a></li>
+          <li className='md:mr-10 opacity-50 font-normal text-lg font-mulish'><a href="/aboutus">About us</a></li>
         </ul>
       </nav>
     </div>
