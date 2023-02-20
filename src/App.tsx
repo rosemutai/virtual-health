@@ -3,6 +3,7 @@ import './App.css';
 import TopHeader from './components/TopHeader';
 import Navbar from './components/Navbar';
 import Services from './components/Services';
+import Ad from './components/Ad';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <TopHeader />
       <Services />
+      <Ad />
       
     </div>
   );
