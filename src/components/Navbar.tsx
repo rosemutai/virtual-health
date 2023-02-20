@@ -3,11 +3,11 @@ import circle from '../images/ellipse7.svg'
 
 const Navbar = () => {
   return (
-    <div className='navbar w-full bg-white min-h-screen md:flex relative md:justify-between'>
+    <div className='navbar w-full bg-white h-16 md:flex relative md:justify-between bg-blue-600'>
       <div className="logo flex">
         <img src={circle} alt="circle"  className='absolute top-0 left-3'/>
-        <a href="/" className='absolute top-1 left-6 z-30 font-mulish'>T</a>
-        <a href="/" className='text-dark-blue md:pl-16'>Trafalgar</a>
+        <a href="/" className='absolute top-2 left-7 z-30 text-white font-mulish'>T</a>
+        <a href="/" className='text-dark-blue pt-2 md:pl-16'>Trafalgar</a>
       </div>
       <nav className="menu-links">
         <ul className='flex text-light-blue justify-between items-center'>
