@@ -13,6 +13,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern': "url('../public/images/bgelement.svg')",
+        'background-gradient': 'linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%)'
       },
 
       boxShadow: {
