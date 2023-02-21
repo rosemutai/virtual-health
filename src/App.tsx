@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Services from './components/Services';
 import Ad from './components/Ad';
 import Feedback from './components/Feedback';
+import Articles from './components/Articles';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Ad />
       <Feedback />
+      <Articles />
       
     </div>
   );
