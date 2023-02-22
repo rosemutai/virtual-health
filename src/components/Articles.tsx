@@ -7,7 +7,7 @@ import arrowforward from '../images/Arrowforward.svg'
 
 const Articles = () => {
   return (
-    <div className='flex flex-col pt-4 w-full mx-auto'>
+    <div className='flex flex-col pt-4 w-full mx-auto md:px-48'>
       <div className='services-top'>
         <h2 className='services-title text-black text-center font-mulish font-bold text-3xl my-4'>
           Check out our latest article

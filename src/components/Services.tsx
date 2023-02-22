@@ -8,7 +8,7 @@ import consultationImg from '../images/Consultation.svg'
 
 const Services = () => {
   return (
-    <div className='our-services flex flex-col pt-4 w-full mx-auto'>
+    <div className='our-services flex flex-col pt-2 w-full mt-14 mx-auto md:px-48 bg-red-500'>
       <div className='services-top'>
         <h2 className='services-title text-black text-center font-mulish font-bold text-3xl my-4'>Our Services</h2>
         <hr className='border-black border w-14 text-center mx-auto mb-2'/>
@@ -19,7 +19,7 @@ const Services = () => {
           of service is suitable for your health
         </p>
       </div>
-      <section className="cards bg-hero-pattern bg-contain bg-no-repeat my-5 grid grid-cols-3 grid-rows-2 gap-y-3 px-">
+      <section className="cards bg-hero-pattern bg-left bg-contain bg-no-repeat my-5 grid grid-cols-3 grid-rows-2 gap-y-3 px-">
         <div className="card w-60 h-64 rounded-2xl bg-white shadow-3xl flex flex-col py-4 px-4 
           c">
           <img src={frame1} alt="search" className='w-16 h-12 my-4' />

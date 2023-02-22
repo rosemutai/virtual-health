@@ -4,12 +4,12 @@ import illustration2 from '../images/trafalgarsec.svg'
 
 const Ad = () => {
   return (
-    <div className='w-full mt-5'>
+    <div className='w-full mt-5 md:px-48'>
       <section className='top-ad flex md:justify-evenly'>
         <div className="w-1/2">
           <img src={illustration1} alt="doctor with smart phone" className='w-3/4 h-80' />
         </div>
-        <div className="description flex flex-col w-1/2">
+        <div className="description flex flex-col w-1/2 pt-16">
           <h2 className='font-mulish text-black font-bold text-xl w-1/2 leading-7'>Leading healthcare providers</h2>
           <hr className='border-black border w-14 my-2'/>
           <p className='text-light-grey font-mulish text-xs w-9/12 my-1 leading-5 pr-4 font-light mix-blend-normal'>
