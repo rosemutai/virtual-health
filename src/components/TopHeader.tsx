@@ -3,10 +3,10 @@ import headerImage from '../images/headerillustration.svg'
 
 const TopHeader = () => {
   return (
-    <section className="about font-mulish w-full md:flex md:justify-between md:pt-8">
-        <div className="description-text md:w-1/2 md:flex md:flex-col md:mt-6">
-          <h1 className='font-bold text-3xl text-black mix-blend-normal md:w-5/6'>Virtual healthcare for you</h1>
-          <p className='w-11/12 font-light text-sm text-light-grey md:py-6'>Trafalgar provides progressive, and affordable 
+    <section className="about font-mulish w-full md:flex md:justify-between md:mt-14 md:px-48">
+        <div className="description-text md:w-1/2 md:flex md:flex-col md:mt-6 pt-8">
+          <h1 className='font-bold text-3xl text-black mix-blend-normal md:w-4/6'>Virtual healthcare for you</h1>
+          <p className='w-9/12 font-light text-sm text-light-grey md:py-6'>Trafalgar provides progressive, and affordable 
             healthcare, accessible on mobile and online 
             for everyone
           </p>
