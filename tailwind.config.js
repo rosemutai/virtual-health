@@ -11,6 +11,10 @@ module.exports = {
         'light-grey': '#7D7987',
         'blue': '#458FF6'
       },
+      spacing: {
+        '8-5': '8.5rem',
+      },
+
       backgroundImage: {
         'hero-pattern': "url('../public/images/bgelement.svg')",
         'background-gradient': 'linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%)',
