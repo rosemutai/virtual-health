@@ -12,7 +12,8 @@ module.exports = {
         'blue': '#458FF6'
       },
       spacing: {
-        '8-5': '8.5rem',
+        '8-5': '10.5rem',
+        '5-5': '4.5rem',
       },
 
       backgroundImage: {
