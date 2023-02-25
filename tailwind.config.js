@@ -17,7 +17,8 @@ module.exports = {
       },
 
       backgroundImage: {
-        'hero-pattern': "url('../public/images/bgelement.svg')",
+        'hero-pattern': "url('../public/images/servicesBg.png')",
+        'services-bg': "url('../public/images/element.png')",
         'background-gradient': 'linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%)',
         'footer-linearbackground': 'linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%)',
       },

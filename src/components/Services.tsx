@@ -8,8 +8,9 @@ import consultationImg from '../images/Consultation.svg'
 
 const Services = () => {
   return (
-    <div className='our-services flex flex-col pt-2 w-full mt-14 mx-auto md:px-48 bg-red-500'>
-      <div className='services-top'>
+    <div className='our-services bg-hero-pattern bg-contain bg-left-bottom bg-no-repeat flex flex-col 
+      pt-2 w-11/12 mt-14 mx-auto md:px-48'>
+      <div className='services-top mb-14'>
         <h2 className='services-title text-black text-center font-mulish font-bold text-3xl my-4'>Our Services</h2>
         <hr className='border-black border w-14 text-center mx-auto mb-2'/>
         <p className='text-light-grey font-mulish font-lg font-light text-center mix-blend-normal'>
@@ -19,9 +20,10 @@ const Services = () => {
           of service is suitable for your health
         </p>
       </div>
-      <section className="cards bg-hero-pattern bg-left bg-contain bg-no-repeat my-5 grid grid-cols-3 grid-rows-2 gap-y-3 px-">
+      <section className="cards bg-services-bg bg-contain bg-[20%] bg-no-repeat pb-6 my-5 grid grid-cols-3
+       grid-rows-2 gap-y-2">
         <div className="card w-60 h-64 rounded-2xl bg-white shadow-3xl flex flex-col py-4 px-4 
-          c">
+          mr8">
           <img src={frame1} alt="search" className='w-16 h-12 my-4' />
           <h3 className='text-black font-bold font-mulish text-xl mix-blend-normal'>Search doctor</h3>
           <p className='font-mulish text-light-grey mix-blend-normal text-xs py-2
@@ -43,25 +45,27 @@ const Services = () => {
             leading-6'>Free consultation with our trusted doctors and get the best recomendations</p>
         </div>
 
-        <div className="card w-60 h-64 rounded-2xl bg-white shadow-3xl flex flex-col py-4 px-4 ">
+        <div className="card w-60 h-64 rounded-2xl bg-white shadow-3xl flex flex-col py-4 px-4 
+          shadow-[10px_40px_50px_rgba(229, 233, 246, 0.4)">
           <img src={clipboard} alt="search" className='w-16 h-12 my-4' />
-          <h3 className='text-black font-bold font-mulish text-xl mix-blend-normal'>Search doctor</h3>
+          <h3 className='text-black font-bold font-mulish text-xl mix-blend-normal'>Details info</h3>
           <p className='font-mulish text-light-grey mix-blend-normal text-xs py-2
-            leading-6'>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+            leading-6'>Free consultation with our trusted doctors and get the best recomendations</p>
         </div>
 
         <div className="card w-60 h-64 rounded-2xl bg-white shadow-3xl flex flex-col py-4 px-4 ">
           <img src={suitcase} alt="search" className='w-16 h-12 my-4' />
-          <h3 className='text-black font-bold font-mulish text-xl mix-blend-normal'>Search doctor</h3>
+          <h3 className='text-black font-bold font-mulish text-xl mix-blend-normal'>Emergency care</h3>
           <p className='font-mulish text-light-grey mix-blend-normal text-xs py-2
-            leading-6'>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+            leading-6'>You can get 24/7 urgent care for yourself or your children and your
+            lovely family</p>
         </div>
 
         <div className="card w-60 h-64 rounded-2xl bg-white shadow-3xl flex flex-col py-4 px-4 ">
           <img src={notebook} alt="search" className='w-16 h-12 my-4' />
-          <h3 className='text-black font-bold font-mulish text-xl mix-blend-normal'>Search doctor</h3>
+          <h3 className='text-black font-bold font-mulish text-xl mix-blend-normal'>Tracking</h3>
           <p className='font-mulish text-light-grey mix-blend-normal text-xs py-2
-            leading-6'>Choose your doctor from thousands of specialist, general, and trusted hospitals</p>
+            leading-6'>Track and save your medical history and health data </p>
         </div>
         
       </section>
